@@ -34,7 +34,7 @@ In a deployed application, you must not *hard code*  values in your Cypher state
 
 [.notes]
 --
-As you test your Cypher statements, you will use a variety literal values to ensure that your Cypher queries are correct.
+As you test your Cypher statements, you will use a variety of literal values to ensure that your Cypher queries are correct.
 But you don't want to change the Cypher statement every time you test.
 In fact, any change to a Cypher statement requires a recompilation of the Cypher code which is expensive.
 You create Cypher statements what will not change, except for the substitution of placeholders (parameters) in the query.
